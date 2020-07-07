@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.108.95.152:8848
+        namespace: fc68e2b9-83b8-4338-9fc2-af89ef6e0437
+server:
+  port: 18080
+
+
+
+feign:
+  hystrix:
+    enabled: true
